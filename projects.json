@@ -15,8 +15,18 @@
         "link": "https://github.com/giyu51/wake-word-detection"
     },
     {
+        "title": "Zabbix Graphs Bottleneck Classification",
+        "description": "A project that classifies bottlenecks in Zabbix graphs using Machine Learning.",
+        "link": "https://github.com/giyu51/zabbix-graphs-bottleneck-classification"
+    },
+    {
         "title": "Basis Vector Encoding",
         "description": "This project demonstrates encoding and decoding messages using basis vectors.",
         "link": "https://github.com/rviole/Basis-Vector-Encoding"
+    },
+    {
+        "title": "IPTV Channels Monitoring",
+        "description": "Python script built using FastAPI and VLC media player that enables monitoring and tracking of IPTV channels' activity and statistics.",
+        "link": "https://github.com/giyu51/iptv-channels-monitoring"
     }
 ]
