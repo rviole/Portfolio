@@ -1,12 +1,12 @@
 [
     {
         "title": "2. Gradient Descent: The First Step in Optimization",
-        "description": "A brief introduction to Blog Post 1.",
+        "description": "Refining the Gradient Descent algorithm to make it more efficient.",
         "link": "https://machine-learning-journey.hashnode.dev/2-gradient-descent-the-first-step-in-optimization"
     },
     {
         "title": "1. Gradient Descent: My First Implementation",
-        "description": "A brief introduction to Blog Post 2.",
+        "description": "Implementing the Gradient Descent algorithm from scratch.",
         "link": "https://machine-learning-journey.hashnode.dev/1-gradient-descent-my-first-implementation"
     }
 ]
