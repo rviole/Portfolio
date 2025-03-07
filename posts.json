@@ -1,0 +1,28 @@
+{
+    "posts": [
+        {
+            "title": "3. Gradient Descent: Exploring Momentum in Optimization",
+            "description": "Understanding the concept of Momentum in Gradient Descent.",
+            "link": "https://machine-learning-journey.hashnode.dev/3-gradient-descent-exploring-momentum",
+            "image": "",
+            "date": "2023-02-28",
+            "readTime": "3 min"
+        },
+        {
+            "title": "2. Gradient Descent: The First Step in Optimization",
+            "description": "Refining the Gradient Descent algorithm to make it more efficient.",
+            "link": "https://machine-learning-journey.hashnode.dev/2-gradient-descent-the-first-step-in-optimization",
+            "image": "",
+            "date": "2025-02-26",
+            "readTime": "3 min"
+        },
+        {
+            "title": "1. Gradient Descent: My First Implementation",
+            "description": "Implementing the Gradient Descent algorithm from scratch.",
+            "link": "https://machine-learning-journey.hashnode.dev/1-gradient-descent-my-first-implementation",
+            "image": "",
+            "date": "2025-02-24",
+            "readTime": "2 min"
+        }
+    ]
+}

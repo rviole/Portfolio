@@ -1,139 +1,109 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My GitHub Projects & Blog</title>
+    <title>ML Engineer Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.7.2/font/bootstrap-icons.css">
     <link rel="stylesheet" href="styles.css">
 </head>
-
 <body>
-    <header>
-        <nav>
-            <ul>
-                <li><a href="https://github.com/rviole/" target="_blank">Github</a></li>
-                <li><a href="https://machine-learning-journey.hashnode.dev/" target="_blank">Blog</a></li>
-            </ul>
-        </nav>
-    </header>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#home">ML Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-auto">
+                    <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+                    <!-- <li class="nav-item"><a class="nav-link" href="about.html">About</a></li> -->
+                    <li class="nav-item"><a class="nav-link" href="https://github.com" target="_blank">Github</a></li>
+                    <li class="nav-item"><a class="nav-link" href="https://hashnode.com" target="_blank">Blog</a></li>
+                </ul>
+            </div>
+        </div>
+    </nav>
 
-    <main>
-        <!-- About Me Section -->
-        <section id="about">
-            <div class="about-container">
-                <div class="about-me">
-                    <h2>About Me</h2>
-                    <p> I’m a Python developer with a passion for Machine Learning and Deep Learning. I focus on active
-                        learning through real projects, where <strong> I learn while practicing. </strong>
-                    </p>
-                    <p>I break down complex topics, <strong> rebuild them from scratch, and build intuition. </strong> This hands-on
-                        approach drives my love for teaching and making concepts accessible. I aim for continuous
-                        improvement and mastery in the most efficient way. Currently, I'm refining my Machine Learning
-                        skills and constantly pushing my understanding further.
-
-                    </p>
-                </div>
-                <div class="philosophy">
-                    <h2>My Philosophy</h2>
-                    <p>True understanding comes from reinvention and exploration. I break concepts apart and rebuild
-                        them, strengthening my problem-solving skills.
-                    </p>
-                    <p>For me, <strong> learning is a  process of discovery </strong>, applying knowledge in real-time. Teaching isn’t just
-                        about explaining; it’s about <strong> making ideas simple and intuitive </strong> for anyone curious.
-                    </p>
-                    <p>I’m always refining my methods and seeking the most effective ways to learn, build, and improve.
-                    </p>
-                </div>
-                <div class="techstack">
-                    <h2>Tech Stack</h2>
-                    <div class="skills-grid">
-                        <div class="skill">
-                            <p><em>Python</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 90%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>Machine Learning</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 75%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>SQL</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 20%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>Algorithms</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 20%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>Data Structures</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 20%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>TensorFlow</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 60%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>JavaScript</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 30%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>HTML & CSS</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 40%;"></div>
-                            </div>
-                        </div>
-                        <div class="skill">
-                            <p><em>Git & GitHub</em></p>
-                            <div class="progress-bar">
-                                <div class="progress" style="width: 65%;"></div>
-                            </div>
-                        </div>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6">
+                    <h2>@rviole</h1>
+                    <h1>Machine Learning Engineer</h1>
+                    <p class="lead">Experienced machine learning enthusiast and software developer with strong Python expertise</p>
+                    <div class="hero-buttons">
+                        <a href="#projects" class="btn btn-primary">View Projects</a>
+                        <a href="#blog" class="btn btn-outline-primary">Read Blog</a>
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
+    </section>
 
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <h2>About Me</h2>
+            <div class="row">
+                <div class="col-md-6">
+                    <p>Learning through active practice and building concepts from scratch. Passionate about simplifying complex concepts and continuous exploration of new technologies.</p>
+                </div>
+                <div class="col-md-6">
+                    <h3>Skills</h3>
+                    <div class="skills">
+                        <span class="skill-tag">Python</span>
+                        <span class="skill-tag">Machine Learning</span>
+                        <span class="skill-tag">Linear Algebra</span>
+                        <span class="skill-tag">TensorFlow</span>
+                        <span class="skill-tag">SQL</span>
+                        <span class="skill-tag">Neural Networks</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
 
-        <!-- Github Projects Section -->
-        <section id="projects">
-            <div class="section-header">
-                <h2>Github Projects</h2>
+    <!-- Projects Section -->
+    <section id="projects" class="section bg-light">
+        <div class="container">
+            <h2>Top Github Projects</h2>
+            <div class="row" id="projects-container">
+                <!-- Projects will be loaded dynamically via JavaScript -->
             </div>
-            <div class="project-container" id="project-list">
-                <!-- Projects will be dynamically loaded here -->
-            </div>
-        </section>
+        </div>
+    </section>
 
-        <!-- HashNode Blog Section -->
-        <section id="blog">
-            <div class="section-header">
-                <h2>Blog Posts</h2>
+    <!-- Blog Section -->
+    <section id="blog" class="section">
+        <div class="container">
+            <h2>Top Blog Posts</h2>
+            <div class="row" id="blog-container">
+                <!-- Blog posts will be loaded dynamically via JavaScript -->
             </div>
-            <div class="blog-container" id="blog-list">
-                <!-- Blog posts will be dynamically loaded here -->
-            </div>
-        </section>
-    </main>
+        </div>
+    </section>
 
-    <footer>
-        <p>&copy; 2025 @rviole</p>
+    <!-- Footer -->
+    <footer class="bg-dark text-white">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-6">
+                    <p>&copy; 2025 ML Portfolio</p>
+                </div>
+                <div class="col-md-6 text-end">
+                    <a href="#" class="social-link"><i class="bi bi-github"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-linkedin"></i></a>
+                    <a href="#" class="social-link"><i class="bi bi-twitter"></i></a>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <script src="scripts.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="script.js"></script>
 </body>
-
 </html>

@@ -1,32 +1,75 @@
-[
-    {
-        "title": "ML from Scratch",
-        "description": "A set of Machine Learning Projects developer from scratch. Serves as a Portfolio project.",
-        "link": "https://github.com/rviole/ML-from-Scratch"
-    },
-    {
-        "title": "XRay Pneumonia Detection GUI",
-        "description": "A GUI application that detects pneumonia from XRay images using a Convolutional Neural Network.",
-        "link": "https://github.com/giyu51/XRay-Pneumonia-Detection-GUI"
-    },
-    {
-        "title": "Wake Word Detection",
-        "description": "A wake word detection system that uses LSTM and Residual blocks to detect the wake word 'Hey Kocho'.",
-        "link": "https://github.com/giyu51/wake-word-detection"
-    },
-    {
-        "title": "Zabbix Graphs Bottleneck Classification",
-        "description": "A project that classifies bottlenecks in Zabbix graphs using Machine Learning.",
-        "link": "https://github.com/giyu51/zabbix-graphs-bottleneck-classification"
-    },
-    {
-        "title": "Basis Vector Encoding",
-        "description": "This project demonstrates encoding and decoding messages using basis vectors.",
-        "link": "https://github.com/rviole/Basis-Vector-Encoding"
-    },
-    {
-        "title": "IPTV Channels Monitoring",
-        "description": "Python script built using FastAPI and VLC media player that enables monitoring and tracking of IPTV channels' activity and statistics.",
-        "link": "https://github.com/giyu51/iptv-channels-monitoring"
-    }
-]
+{
+    "projects": [
+        {
+            "name": "ML from Scratch",
+            "description": "A set of Machine Learning Projects developer from scratch. Serves as a Portfolio project.",
+            "image": "",
+            "link": "https://github.com/rviole/ML-from-Scratch",
+            "technologies": [
+                "Python",
+                "NumPy",
+                "Matplotlib"
+            ],
+            "date": "2023-02-20"
+        },
+        {
+            "name": "XRay Pneumonia Detection GUI",
+            "description": "A GUI application that detects pneumonia from XRay images using a Convolutional Neural Network.",
+            "image": "",
+            "link": "https://github.com/giyu51/XRay-Pneumonia-Detection-GUI",
+            "technologies": [
+                "Python",
+                "Kiwi",
+                "TensorFlow"
+            ],
+            "date": "2023-04-01"
+        },
+        {
+            "name": "Wake Word Detection",
+            "description": "A wake word detection system that uses LSTM and Residual blocks to detect the wake word 'Hey Kocho'.",
+            "image": "",
+            "link": "https://github.com/giyu51/wake-word-detection",
+            "technologies": [
+                "Python",
+                "TensorFlow",
+                "Keras"
+            ],
+            "date": "2023-04-01"
+        },
+        {
+            "name": "Zabbix Graphs Bottleneck Classification",
+            "description": "A project that classifies bottlenecks in Zabbix graphs using Machine Learning.",
+            "image": "",
+            "link": "https://github.com/giyu51/zabbix-graphs-bottleneck-classification",
+            "technologies": [
+                "Python",
+                "Pandas",
+                "TensorFlow"
+            ],
+            "date": "2023-04-01"
+        },
+        {
+            "name": "IPTV Channels Monitoring",
+            "description": "Python script built using FastAPI and VLC media player that enables monitoring and tracking of IPTV channels' activity and statistics.",
+            "image": "",
+            "link": "https://github.com/giyu51/iptv-channels-monitoring",
+            "technologies": [
+                "Python",
+                "FastAPI",
+                "VLC"
+            ],
+            "date": "2023-04-01"
+        },
+        {
+            "name": "Basis Vector Encoding",
+            "description": "This project demonstrates encoding and decoding messages using basis vectors.",
+            "image": "",
+            "link": "https://github.com/rviole/Basis-Vector-Encoding",
+            "technologies": [
+                "Python",
+                "NumPy"
+            ],
+            "date": "2023-04-01"
+        }
+    ]
+}
