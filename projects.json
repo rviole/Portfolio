@@ -10,7 +10,7 @@
                 "NumPy",
                 "Matplotlib"
             ],
-            "date": "2023-02-20"
+            "date": "2025-02-20"
         },
         {
             "name": "XRay Pneumonia Detection GUI",
@@ -22,7 +22,7 @@
                 "Kiwi",
                 "TensorFlow"
             ],
-            "date": "2023-04-01"
+            "date": "2023-08-04"
         },
         {
             "name": "Wake Word Detection",
@@ -34,7 +34,7 @@
                 "TensorFlow",
                 "Keras"
             ],
-            "date": "2023-04-01"
+            "date": "2024-06-04"
         },
         {
             "name": "Zabbix Graphs Bottleneck Classification",
@@ -46,7 +46,7 @@
                 "Pandas",
                 "TensorFlow"
             ],
-            "date": "2023-04-01"
+            "date": "2023-06-06"
         },
         {
             "name": "IPTV Channels Monitoring",
@@ -58,7 +58,7 @@
                 "FastAPI",
                 "VLC"
             ],
-            "date": "2023-04-01"
+            "date": "2023-10-10"
         },
         {
             "name": "Basis Vector Encoding",
@@ -69,7 +69,7 @@
                 "Python",
                 "NumPy"
             ],
-            "date": "2023-04-01"
+            "date": "2025-02-03"
         }
     ]
 }
