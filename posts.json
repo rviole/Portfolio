@@ -1,6 +1,14 @@
 {
     "posts": [
         {
+            "title": "4. Gradient Descent: Discovering Adam Optimizer",
+            "description": "First Implementation of the Adam Optimizer algorithm.",
+            "link": "https://machine-learning-journey.hashnode.dev/4-gradient-descent-discovering-adam-optimizer",
+            "image": "",
+            "date": "2025-03-10",
+            "readTime": "10 min"
+        },
+        {
             "title": "3. Gradient Descent: Exploring Momentum in Optimization",
             "description": "Understanding the concept of Momentum in Gradient Descent.",
             "link": "https://machine-learning-journey.hashnode.dev/3-gradient-descent-exploring-momentum",
