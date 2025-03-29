@@ -1,9 +1,10 @@
 [
-    { "date": "2025-03-15", "name": "Multi Output NN", "description": "First time developed a simple Sequential Dense Network from scratch (multi IN, multi OUT).", "link": "#" },
-    { "date": "2025-03-14", "name": "Mini Batching", "description": "Implemented Mini Batching in NN from scratch (multi IN, single OUT).", "link": "#" },
-    { "date": "2025-03-13", "name": "SGD", "description": "Implemented Stochastic Gradient Descent in NN from scratch (multi IN, single OUT).", "link": "#" },
-    { "date": "2025-03-10", "name": "Adam", "description": "First time developed an Adam Optimizer from scratch.", "link": "#" },
+    { "date": "2025-03-28", "name": "Sequential NN from scratch", "description": "First time developed a simple Sequential Dense Network from scratch.", "link": "https://github.com/rviole/ML-from-Scratch" },
+    { "date": "2025-03-15", "name": "Multi Output Dense Layer", "description": "First time developed a Dense Layer from scratch (multi IN, multi OUT).", "link": "https://github.com/rviole/ML-from-Scratch" },
+    { "date": "2025-03-14", "name": "Mini Batching", "description": "Implemented Mini Batching in NN from scratch (multi IN, single OUT).", "link": "https://github.com/rviole/ML-from-Scratch" },
+    { "date": "2025-03-13", "name": "SGD", "description": "Implemented Stochastic Gradient Descent in NN from scratch (multi IN, single OUT).", "link": "https://github.com/rviole/ML-from-Scratch" },
+    { "date": "2025-03-10", "name": "Adam", "description": "First time developed an Adam Optimizer from scratch.", "link": "https://github.com/rviole/ML-from-Scratch" },
     { "date": "2025-03-05", "name": "Website", "description": "Launched my website! 🎉 Check it out: ©️Website", "link": "#" },
-    { "date": "2025-02-28", "name": "Optimizer 2", "description": "First time developed a Momentum-based Optimizer from scratch.", "link": "#" },
-    { "date": "2025-02-26", "name": "Optimizer 1", "description": "First time developed an Adaptive Learning Rate Scheduler for Gradient Descent.", "link": "#" }
+    { "date": "2025-02-28", "name": "Optimizer 2", "description": "First time developed a Momentum-based Optimizer from scratch.", "link": "https://github.com/rviole/ML-from-Scratch" },
+    { "date": "2025-02-26", "name": "Optimizer 1", "description": "First time developed an Adaptive Learning Rate Scheduler for Gradient Descent.", "link": "https://github.com/rviole/ML-from-Scratch" }
 ]
